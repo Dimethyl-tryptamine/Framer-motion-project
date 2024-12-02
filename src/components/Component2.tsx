@@ -22,16 +22,16 @@ const Component2 = () => {
                 
             },
         },
-        }
+    }
 
   
-        // Initialize animation controls
-        const controls = useAnimation();
-    
-        // Function to start the animation
-        const startAnimation = () => {
-        controls.start('animate'); // Start the animation
-        };
+    // Initialize animation controls
+    const controls = useAnimation();
+
+    // Function to start the animation
+    const startAnimation = () => {
+    controls.start('animate'); // Start the animation
+    };
 
    
   
